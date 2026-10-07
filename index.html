@@ -5,39 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Portofolio Julien Karch</title>
+    <title>Portfolio Julien Karch</title>
 </head>
 
 <body>
     <header class="header">
-        <button class="menu-toggle" aria-label="Menu openen" aria-expanded="false" type="button">
+        <button class="menu-toggle" type="button">
             <span></span>
             <span></span>
             <span></span>
         </button>
 
-        <nav class="nav-menu" aria-label="Hoofdnavigatie">
-            <a href="index.html"><button type="button">Home</button></a>
-            <a href="overMij.html"><button type="button">Over mij</button></a>
-            <a href="mijnProjecten.html"><button type="button">Mijn projecten</button></a>
+        <nav class="nav-menu">
+            <a href="index.html" class="active">Home</a>
+            <a href="overMij.html">About me</a>
+            <a href="mijnProjecten.html">My projects</a>
         </nav>
     </header>
 
-    <h2 class="titel">
-        Dit is mijn portofolio:
-    </h2>
+    <main class="first-page">
+        <h2 class="titel">This is my portfolio:</h2>
 
-    <p>
-        Mijn naam is Julien Karch en ik ben 19 jaar oud.
-        Ik ben een student van het Mediacollege in Amsterdam,
-        waar ik de opleiding Software Developer volg.
-        In mijn vrije tijd als ik niet aan het gamen ben, ben ik bezig met programmeren websites, vooral frontend.
-        Ik heb ervaring met verschillende programmeertalen zoals HTML, CSS, JavaScript.
-        Mijn doel is om meer te leren en uiteindelijk mijn diploma te halen.
-    </p>
+        <section class="ik">
+            <img src="img/Ik.jpg" alt="Julien Karch" class="ik-img">
 
-    <footer>
-        contact
+            <div class="ik-text">
+                <p>
+                    My name is Julien Karch and i am 19 years old.
+                    I am a college student at Mediacollege in Amsterdam,
+                    i follow the Software Developer course.
+                    In my free time if i am not gaming, i'm busy programming, especially frontend.
+                    I know different programming languages like HTML, CSS and a little bit of JavaScript which i want to get a lot better at.
+                    My goal is to learn a lot since i know that i still need to go a long way, and get my diploma.
+                </p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 id="skills-title">My skills</h2>
+
+            <div class="skill">
+                <div class="skill-label">
+                    <h3>HTML</h3>
+                    <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-progress" style="width: 90%;"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-label">
+                    <h3>CSS</h3>
+                    <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-progress" style="width: 85%;"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-label">
+                    <h3>JavaScript</h3>
+                    <span>45%</span>
+                </div>
+                <div class="skill-bar">
+                    <span class="skill-progress" style="width: 45%;"></span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-intro">
+                <h2>Contact</h2>
+                <p>Feel free to contact me.</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:julienkarch50@gmail.com">julienkarch50@gmail.com</a>
+                <a href="https://www.linkedin.com/in/julien-karch-1b0b4b1b9/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/37757" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; 2026 Julien Karch</p>
     </footer>
 
     <script src="js/main.js"></script>

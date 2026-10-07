@@ -1,31 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>My projects</title>
 </head>
 
 <body>
     <header class="header">
-        <button class="menu-toggle" aria-label="Menu openen" aria-expanded="false" type="button">
+        <button class="menu-toggle" type="button">
             <span></span>
             <span></span>
             <span></span>
         </button>
 
-        <nav class="nav-menu" aria-label="Hoofdnavigatie">
-            <a href="index.html"><button type="button">Home</button></a>
-            <a href="overMij.html"><button type="button">Over mij</button></a>
-            <a href="mijnProjecten.html"><button type="button">Mijn projecten</button></a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="overMij.html">About me</a>
+            <a href="mijnProjecten.html" class="active">My projects</a>
         </nav>
     </header>
 
-    <p>
-        projecten
-    </p>
+    <main class="first-page">
+        <h2 class="titel">My projects</h2>
+
+        <div class="project-list">
+            <article class="project-card">
+                <h3>Onepager</h3>
+                <p>A onepager i made in my first year which is good for the time</p>
+                <a href="https://37757.hosts2.ma-cloud.nl/onepager_1.4/index.html" target="_blank">Open project</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Skill blog</h3>
+                <p>This also was in my first year and we needed to make it about anything we wanted and use a lot of different skills
+                    the styling is bad but i learned a lot from this project and it was fun to make it.
+                </p>
+                <a href="https://37757.hosts2.ma-cloud.nl/skill_blog.html" target="_blank">Open project</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Webshop landing page</h3>
+                <p>This is a webshop also from the first year, and while the styling again is not the best
+                    everything works and i once again learned a lot.
+                </p>
+                <a href="https://37757.hosts2.ma-cloud.nl/bo_webshop_1_4/landingspage.html" target="_blank">Open project</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Klantwebsite</h3>
+                <p>This is a website we needed to make for a customer in the second year, and i am actually proud of the styling here
+                    and everything works, i have learned to not use a bunch of different and overwhelming colors and to keep it simple, 
+                    and i think this is a good example of that.
+                </p>
+                <a href="https://37757.hosts2.ma-cloud.nl/klantwebsite%20_2.1/" target="_blank">Open project</a>
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-intro">
+                <h2>Contact</h2>
+                <p>Feel free to contact me.</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:julienkarch50@gmail.com">julienkarch50@gmail.com</a>
+                <a href="https://www.linkedin.com/in/julien-karch-1b0b4b1b9/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/37757" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+        <p class="footer-copyright">&copy; 2026 Julien Karch</p>
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
